@@ -199,14 +199,16 @@ main {
 .booking-page {
     width: 600px;
     margin: 0 auto; 
-    text-align: center;
+    flex-direction: column;
+    align-items: center: 
     font-size: 18px; 
+    gap: 20px
 }
 
 .day-selector {
     margin-bottom: 12px; 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 20px; 
 }
 
@@ -215,10 +217,12 @@ main {
     height: 40px;
     border: 1px solid black; /* Solid black border */
     display: flex; 
-    justify-content: center;
+    gap: 20px;
+    justify-content: space-around;
     text-align: center;
     cursor: pointer;
     border-radius: 4px;
+    margin-bottom: 20px; 
 }
 
 .small-button {
@@ -228,6 +232,7 @@ main {
     cursor: pointer;
     border-radius: 4px;
     font-size: 18px;
+    text-align: center;
     background-color: white;
 }
 
