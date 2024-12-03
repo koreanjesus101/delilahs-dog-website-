@@ -141,13 +141,14 @@ header h1 {
 /* Footer styling */
 footer {
     background-color: #E5AF42; 
-    height: 60px; 
-    display: flex;
-    align-items: center; 
-    justify-content: center; 
-    font-weight: 200; 
-    margin-top: 50px; 
+    padding: 14px 0; 
     text-align: center; 
+    font-weight: 200; 
+    font-size: 14px; 
+    margin-top: 50px; 
+    display: flex; /* flexbox for alignment */
+    flex-direction: column; 
+    gap: 2px; 
 }
 
 footer p {
