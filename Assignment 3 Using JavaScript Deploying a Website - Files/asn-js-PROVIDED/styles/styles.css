@@ -174,9 +174,46 @@ main {
 */
 
 /************* index page *************/
+.index .flex {
+    display: flex; 
+    gap: 25px; 
+    align-items: flex-start; 
 
+.index .about-us {
+    flex: 1; 
+}
 
+.index img {
+    width: 300px; 
+    flex-shrink: 0; 
+    margin-bottom: 50px; 
+    align-self: flex-start; 
+}
 
+.flex-buttons {
+    display: flex; 
+    justify-content: center; 
+    gap: 150px; 
+    margin-top: 50px; 
+}
+
+.fake-button {
+    width: 250px; 
+    line-height: 3; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 18px; 
+    border: 1px solid black; 
+    background-color: #E5AF42; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+.fake-button:hover {
+    background-color: #4278e5; 
+    color: white; 
+    text-decoration: underline; 
+}
 
 
 
